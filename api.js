@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 // Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key
-const apiKey = 'C49GO3ZJZG0PD1HM';
+const apiKey = 'thats_my_API_key';
 const symbol = 'AAPL'; // Replace with the stock symbol you want to query
 
 const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${apiKey}`;
