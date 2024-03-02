@@ -5,7 +5,7 @@
 
 
 
-const apiKey = 'C49GO3ZJZG0PD1HM';
+const apiKey = 'my_API_key';
 
 const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=${symbol}&apikey=${apiKey}`;
 
